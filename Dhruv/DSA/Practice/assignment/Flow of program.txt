@@ -1,0 +1,70 @@
+1. Input a year and find whether it is a leap year or not.
+
+	// Return true if year is a multiple
+	// of 4 and not multiple of 100.
+	// OR year is multiple of 400.
+
+
+start
+input year
+if leap year % 4 === 0
+return leap year
+else if 
+leap year % 100 == 0
+return not leap year
+else
+leap year % 400 == 0
+return leap year
+stop
+
+# More answer
+
+    return (((year % 4 == 0) && (year % 100 != 0)) ||
+            (year % 400 == 0));
+
+2. Take two numbers and print the sum of both.
+
+start
+input number 1
+imput number 2
+while
+Sum = Num 1 + num 2
+output sum
+stop
+
+3. Take a number as input and print the multiplication table for it.
+
+start
+input number
+for (i=1; 1<=10; i++)
+multiplication table =inum1
+print = %d%d = %d,num1,multiplication_table
+
+
+4. Take 2 numbers as inputs and find their HCF and LCM.
+
+start
+input num 1
+imput num 2
+temp1= num 1
+temp 2 =num2
+while temp2!0
+{temp = temp2
+temp2=temp1%temp2
+temp1=temp}
+hcf = temp1
+lcm = num1*num2/hcf
+print hcf
+print lcm
+stop
+
+5.Keep taking numbers as inputs till the user enters ‘x’, after that print sum of all.
+
+start
+t=next num;
+while(next num)
+num=next num;
+for j=0 j<=i i++
+sum += num
+print sum//out side of the loop
+end
